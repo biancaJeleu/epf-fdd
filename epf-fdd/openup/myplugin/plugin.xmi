@@ -155,6 +155,13 @@
             <methodElementProperty xmi:id="_snTsIPlvEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xkFSsPlwEeOXpe7a-hAPbg" name="fdd_practice_lib" guid="_xkFSsPlwEeOXpe7a-hAPbg">
+          <methodElementProperty xmi:id="_xkF5wPlwEeOXpe7a-hAPbg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_y2DQ4PlwEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_z0nx8PlwEeOXpe7a-hAPbg" name="fdd_roadmap" guid="_z0nx8PlwEeOXpe7a-hAPbg" presentationName="FDD Roadmap" briefDescription="This roadmap presents an overview of FDD its purpose, and its lifecycle.">
+            <methodElementProperty xmi:id="_0blEQPlwEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hObILflKEeO6rp_93XQlYA" name="CapabilityPatterns" guid="_hObILflKEeO6rp_93XQlYA"/>
     </methodPackages>
