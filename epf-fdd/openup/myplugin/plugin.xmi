@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_hR-LYPlKEeO6rp_93XQlYA" guid="_hR-LYPlKEeO6rp_93XQlYA">
+    <subManagers xmi:id="_663RIPlKEeO6rp_93XQlYA" href="uma://_66WTwPlKEeO6rp_93XQlYA#_663RIPlKEeO6rp_93XQlYA"/>
+    <resourceDescriptors xmi:id="_66YwAPlKEeO6rp_93XQlYA" id="_66WTwPlKEeO6rp_93XQlYA" uri="deliveryprocesses/openUp_FDD_lifecycle/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_hObIIPlKEeO6rp_93XQlYA" name="myplugin" guid="_hObIIPlKEeO6rp_93XQlYA">
+    <methodElementProperty xmi:id="_hR-LYvlKEeO6rp_93XQlYA" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIIflKEeO6rp_93XQlYA" name="Content" guid="_hObIIflKEeO6rp_93XQlYA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIIvlKEeO6rp_93XQlYA" name="Categories" guid="_hObIIvlKEeO6rp_93XQlYA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObII_lKEeO6rp_93XQlYA" name="Domains" guid="_hObII_lKEeO6rp_93XQlYA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIJPlKEeO6rp_93XQlYA" name="Disciplines" guid="_hObIJPlKEeO6rp_93XQlYA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIJflKEeO6rp_93XQlYA" name="RoleSets" guid="_hObIJflKEeO6rp_93XQlYA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIJvlKEeO6rp_93XQlYA" name="WP Types" guid="_hObIJvlKEeO6rp_93XQlYA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIJ_lKEeO6rp_93XQlYA" name="Tools" guid="_hObIJ_lKEeO6rp_93XQlYA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIKPlKEeO6rp_93XQlYA" name="StandardCategories" guid="_hObIKPlKEeO6rp_93XQlYA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIKflKEeO6rp_93XQlYA" name="CustomCategories" guid="_hObIKflKEeO6rp_93XQlYA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIKvlKEeO6rp_93XQlYA" name="Hidden" guid="_hObIKvlKEeO6rp_93XQlYA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_hObIK_lKEeO6rp_93XQlYA" name="Custom Categories" guid="_hObIK_lKEeO6rp_93XQlYA" categorizedElements="_Wqu4MPlQEeO6rp_93XQlYA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Wqu4MPlQEeO6rp_93XQlYA" name="new_custom_category" guid="_Wqu4MPlQEeO6rp_93XQlYA" presentationName="new_custom_category">
+            <methodElementProperty xmi:id="_hwUskPlQEeO6rp_93XQlYA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_66WTwPlKEeO6rp_93XQlYA#_66WTwflKEeO6rp_93XQlYA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObILPlKEeO6rp_93XQlYA" name="CoreContent" guid="_hObILPlKEeO6rp_93XQlYA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hObILflKEeO6rp_93XQlYA" name="CapabilityPatterns" guid="_hObILflKEeO6rp_93XQlYA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hObILvlKEeO6rp_93XQlYA" name="DeliveryProcesses" guid="_hObILvlKEeO6rp_93XQlYA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_66WTwPlKEeO6rp_93XQlYA" href="uma://_66WTwPlKEeO6rp_93XQlYA#_66WTwPlKEeO6rp_93XQlYA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hObIL_lKEeO6rp_93XQlYA" name="ProcessContributions" guid="_hObIL_lKEeO6rp_93XQlYA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
