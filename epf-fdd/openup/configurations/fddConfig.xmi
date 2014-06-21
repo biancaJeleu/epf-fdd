@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:MethodConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_b7Z24PlsEeOXpe7a-hAPbg" name="fddConfig" guid="_b7Z24PlsEeOXpe7a-hAPbg">
+<org.eclipse.epf.uma:MethodConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_b7Z24PlsEeOXpe7a-hAPbg" name="fddConfig" guid="_b7Z24PlsEeOXpe7a-hAPbg" presentationName="OpenUp FDD">
   <methodElementProperty xmi:id="_wOxCYPlsEeOXpe7a-hAPbg" name="TouchedByConfigEditor" value="true"/>
   <methodElementProperty xmi:id="_wOxpcPlsEeOXpe7a-hAPbg" name="Config_doneLoadCheckPkgs" value="_66WTwPlKEeO6rp_93XQlYA/_6ZItAPleEeOXpe7a-hAPbg/_RHYCsPljEeOXpe7a-hAPbg"/>
   <methodElementProperty xmi:id="_wzPBYPlsEeOXpe7a-hAPbg" name="me_edited" value="true"/>
@@ -800,5 +800,5 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_4ulTgMg7EdyXeo04os5BOw#_9u1xiLekEd-D7YZN9NgldQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_4ulTgMg7EdyXeo04os5BOw#_9u1xh7ekEd-D7YZN9NgldQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_4ulTgMg7EdyXeo04os5BOw#_9u1xibekEd-D7YZN9NgldQ"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_4ulTgMg7EdyXeo04os5BOw#_1LVMUJouEeGnJt_Qpwdfdg"/>
+  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_hObIIPlKEeO6rp_93XQlYA#_Wqu4MPlQEeO6rp_93XQlYA"/>
 </org.eclipse.epf.uma:MethodConfiguration>

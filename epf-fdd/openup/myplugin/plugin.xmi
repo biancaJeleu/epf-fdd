@@ -30,8 +30,10 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIKvlKEeO6rp_93XQlYA" name="Hidden" guid="_hObIKvlKEeO6rp_93XQlYA">
             <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_hObIK_lKEeO6rp_93XQlYA" name="Custom Categories" guid="_hObIK_lKEeO6rp_93XQlYA" categorizedElements="_Wqu4MPlQEeO6rp_93XQlYA"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Wqu4MPlQEeO6rp_93XQlYA" name="new_custom_category" guid="_Wqu4MPlQEeO6rp_93XQlYA" presentationName="new_custom_category">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Wqu4MPlQEeO6rp_93XQlYA" name="new_custom_category" guid="_Wqu4MPlQEeO6rp_93XQlYA" presentationName="Feature Driven Development">
             <methodElementProperty xmi:id="_hwUskPlQEeO6rp_93XQlYA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSet" href="#_qqGoUPleEeOXpe7a-hAPbg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSet" href="#_LUbMoPljEeOXpe7a-hAPbg"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_66WTwPlKEeO6rp_93XQlYA#_66WTwflKEeO6rp_93XQlYA"/>
           </contentElements>
         </childPackages>
