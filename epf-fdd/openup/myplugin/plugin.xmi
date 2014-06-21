@@ -123,7 +123,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_TCtuAPljEeOXpe7a-hAPbg" name="release_manager" guid="_TCtuAPljEeOXpe7a-hAPbg" presentationName="Release Manager" briefDescription="Release ld Manager ensures Chief Programmers report progress on what has been 'released' into the build at regular intervals">
             <methodElementProperty xmi:id="_UtkGQPljEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VM_NMPljEeOXpe7a-hAPbg" name="build_manager" guid="_VM_NMPljEeOXpe7a-hAPbg" presentationName="Build Manager" briefDescription="Build Manager is responsible for setting up, and maintaining the running of a regular build process">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_VM_NMPljEeOXpe7a-hAPbg" name="build_manager" guid="_VM_NMPljEeOXpe7a-hAPbg" presentationName="Build Manager" briefDescription="Build Manager is responsible for setting up, and maintaining the running of a regular build process" responsibleFor="_lm6LgPlvEeOXpe7a-hAPbg _ppIq0PlvEeOXpe7a-hAPbg _rhQDAPlvEeOXpe7a-hAPbg">
             <methodElementProperty xmi:id="_W5YdkPljEeOXpe7a-hAPbg" name="me_edited" value="true"/>
             <presentation xmi:id="-6GoXCXp-EnWn0e2iVTWoqA" href="uma://-6GoXCXp-EnWn0e2iVTWoqA#-6GoXCXp-EnWn0e2iVTWoqA"/>
           </contentElements>
@@ -144,6 +144,15 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FN8kUPloEeOXpe7a-hAPbg" name="deploy_new_release" guid="_FN8kUPloEeOXpe7a-hAPbg" presentationName="Deploy new release" performedBy="_XtOVUPljEeOXpe7a-hAPbg">
             <methodElementProperty xmi:id="_HnU2gPloEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lm6LgPlvEeOXpe7a-hAPbg" name="build_script" guid="_lm6LgPlvEeOXpe7a-hAPbg" presentationName="Build Script">
+            <methodElementProperty xmi:id="_o5TJUPlvEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ppIq0PlvEeOXpe7a-hAPbg" name="deploy_script" guid="_ppIq0PlvEeOXpe7a-hAPbg" presentationName="Deployment Script">
+            <methodElementProperty xmi:id="_q2LswPlvEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rhQDAPlvEeOXpe7a-hAPbg" name="report" guid="_rhQDAPlvEeOXpe7a-hAPbg" presentationName="Reports">
+            <methodElementProperty xmi:id="_snTsIPlvEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
