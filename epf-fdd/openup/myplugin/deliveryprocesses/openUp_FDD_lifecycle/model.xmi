@@ -7,16 +7,219 @@
     <methodElementProperty xmi:id="_66WTwvlKEeO6rp_93XQlYA" name="pkg_loadCheck" value="true"/>
     <methodElementProperty xmi:id="_CMEGgPlOEeO6rp_93XQlYA" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_75I3QPlKEeO6rp_93XQlYA" name="Develop an Overall Model" guid="_75I3QPlKEeO6rp_93XQlYA">
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8akpAPlNEeO6rp_93XQlYA" name="Develop Iteration" guid="_8akpAPlNEeO6rp_93XQlYA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8akpAPlNEeO6rp_93XQlYA" name="Develop Overall Modell Iteration" guid="_8akpAPlNEeO6rp_93XQlYA">
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_pLsj4PlOEeO6rp_93XQlYA" name="New Activity" guid="_pLsj4PlOEeO6rp_93XQlYA">
           <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_pLsj4flOEeO6rp_93XQlYA" name="New Activity" guid="_pLsj4flOEeO6rp_93XQlYA" presentationName="Form the Modeling Team" superActivities="_8akpAflNEeO6rp_93XQlYA"/>
         </childPackages>
-        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_8akpAflNEeO6rp_93XQlYA" name="Develop Iteration" guid="_8akpAflNEeO6rp_93XQlYA" presentationName="Develop Iteration" superActivities="_75I3QflKEeO6rp_93XQlYA" isRepeatable="true" breakdownElements="_pLsj4flOEeO6rp_93XQlYA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wA2okfl0EeO6rp_93XQlYA" name="New Activity_2" guid="_wA2okfl0EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_wA2okvl0EeO6rp_93XQlYA" name="New Activity_2" guid="_wA2okvl0EeO6rp_93XQlYA" presentationName="Conduct a Domain Walkthrogh" superActivities="_8akpAflNEeO6rp_93XQlYA" linkToPredecessor="_HlXbwPl1EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_HlXbwPl1EeO6rp_93XQlYA" guid="_HlXbwPl1EeO6rp_93XQlYA" pred="_pLsj4flOEeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_1whhIfl0EeO6rp_93XQlYA" name="New Activity_3" guid="_1whhIfl0EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_1whhIvl0EeO6rp_93XQlYA" name="New Activity_3" guid="_1whhIvl0EeO6rp_93XQlYA" presentationName="Study Documents" superActivities="_8akpAflNEeO6rp_93XQlYA" linkToPredecessor="_KBT5wPl1EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KBT5wPl1EeO6rp_93XQlYA" guid="_KBT5wPl1EeO6rp_93XQlYA" pred="_wA2okvl0EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4D2OoPl0EeO6rp_93XQlYA" name="New Activity_4" guid="_4D2OoPl0EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_4D2Oofl0EeO6rp_93XQlYA" name="New Activity_4" guid="_4D2Oofl0EeO6rp_93XQlYA" presentationName="Develop Small Group Models" superActivities="_8akpAflNEeO6rp_93XQlYA" linkToPredecessor="_RJ7iQPl1EeO6rp_93XQlYA _RJ8JUPl1EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_RJ7iQPl1EeO6rp_93XQlYA" guid="_RJ7iQPl1EeO6rp_93XQlYA" pred="_wA2okvl0EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_RJ8JUPl1EeO6rp_93XQlYA" guid="_RJ8JUPl1EeO6rp_93XQlYA" pred="_1whhIvl0EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7QFhIPl0EeO6rp_93XQlYA" name="New Activity_5" guid="_7QFhIPl0EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7QFhIfl0EeO6rp_93XQlYA" name="New Activity_5" guid="_7QFhIfl0EeO6rp_93XQlYA" presentationName="Develop a Team Model" superActivities="_8akpAflNEeO6rp_93XQlYA" linkToPredecessor="_Rxc1QPl1EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Rxc1QPl1EeO6rp_93XQlYA" guid="_Rxc1QPl1EeO6rp_93XQlYA" pred="_4D2Oofl0EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-n2HIPl0EeO6rp_93XQlYA" name="New Activity_6" guid="_-n2HIPl0EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_-n2HIfl0EeO6rp_93XQlYA" name="New Activity_6" guid="_-n2HIfl0EeO6rp_93XQlYA" presentationName="Refine the overall Object Model" superActivities="_8akpAflNEeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_DNk8IPl1EeO6rp_93XQlYA" name="New Activity_7" guid="_DNk8IPl1EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_DNk8Ifl1EeO6rp_93XQlYA" name="New Activity_7" guid="_DNk8Ifl1EeO6rp_93XQlYA" presentationName="Write Model Nodes" superActivities="_8akpAflNEeO6rp_93XQlYA"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_8akpAflNEeO6rp_93XQlYA" name="Develop Overall Modell Iteration" guid="_8akpAflNEeO6rp_93XQlYA" presentationName="Develop Overall Modell Iteration" superActivities="_75I3QflKEeO6rp_93XQlYA" isRepeatable="true" breakdownElements="_pLsj4flOEeO6rp_93XQlYA _12db8PlyEeO6rp_93XQlYA _wA2okvl0EeO6rp_93XQlYA _1whhIvl0EeO6rp_93XQlYA _4D2Oofl0EeO6rp_93XQlYA _7QFhIfl0EeO6rp_93XQlYA _-n2HIfl0EeO6rp_93XQlYA _DNk8Ifl1EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TeamProfile" xmi:id="_12db8PlyEeO6rp_93XQlYA" name="Domain and development team" guid="_12db8PlyEeO6rp_93XQlYA" presentationName="Domain and development team" superActivities="_8akpAflNEeO6rp_93XQlYA" teamRoles="_6_1wkPlyEeO6rp_93XQlYA _6_1wkflyEeO6rp_93XQlYA _6_1wk_lyEeO6rp_93XQlYA _6_1wlPlyEeO6rp_93XQlYA _6_1wlflyEeO6rp_93XQlYA _i_V6EPl0EeO6rp_93XQlYA _i_V6Efl0EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6_1wkPlyEeO6rp_93XQlYA" name="chief_architect" guid="_6_1wkPlyEeO6rp_93XQlYA" presentationName="Chief Architect">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_9wfDUPleEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6_1wkflyEeO6rp_93XQlYA" name="chief_programmer" guid="_6_1wkflyEeO6rp_93XQlYA" presentationName="Chief Programmer">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_6IivcPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6_1wk_lyEeO6rp_93XQlYA" name="development_manager" guid="_6_1wk_lyEeO6rp_93XQlYA" presentationName="Development Manager">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_2tlrgPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6_1wlPlyEeO6rp_93XQlYA" name="domain_expert" guid="_6_1wlPlyEeO6rp_93XQlYA" presentationName="Domain Expert">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_B6UCoPljEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6_1wlflyEeO6rp_93XQlYA" name="project_manager" guid="_6_1wlflyEeO6rp_93XQlYA" presentationName="Project Manager">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_jYMnUPlmEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_i_V6EPl0EeO6rp_93XQlYA" name="stakeholder" guid="_i_V6EPl0EeO6rp_93XQlYA" presentationName="Stakeholder" isPlanned="false">
+          <Role href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_i_V6Efl0EeO6rp_93XQlYA" name="product_owner" guid="_i_V6Efl0EeO6rp_93XQlYA" presentationName="Product Owner" isPlanned="false">
+          <Role href="uma://_A118oMYaEdyXeo04os5BOw#_-a85MeCEEeC1y_NExchKwQ"/>
+        </processElements>
       </childPackages>
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_75I3QflKEeO6rp_93XQlYA" name="Develop an Overall Model" guid="_75I3QflKEeO6rp_93XQlYA" presentationName="Develop an Overall Model" superActivities="_66WTwflKEeO6rp_93XQlYA" breakdownElements="_8akpAflNEeO6rp_93XQlYA _Cm2lEPlOEeO6rp_93XQlYA"/>
-      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_Cm2lEPlOEeO6rp_93XQlYA" name="Develop Model Milestone" guid="_Cm2lEPlOEeO6rp_93XQlYA" presentationName="Develop Model Milestone" superActivities="_75I3QflKEeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_75I3QflKEeO6rp_93XQlYA" name="Develop an Overall Model" guid="_75I3QflKEeO6rp_93XQlYA" presentationName="Develop an Overall Model" briefDescription="Domain Members perform an initial high-level walkthrough of the scope of the system and its context. Then the domain members perform more detailed walkthroughs of each area of the problem domain.The domain area model is merged into the overall model, adjusting the model shape as required. The object model is then updated iteratively with content by process IV, Design by Feature." superActivities="_66WTwflKEeO6rp_93XQlYA" breakdownElements="_8akpAflNEeO6rp_93XQlYA _Cm2lEPlOEeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_Cm2lEPlOEeO6rp_93XQlYA" name="Develop Model Milestone" guid="_Cm2lEPlOEeO6rp_93XQlYA" presentationName="Develop Model Milestone" superActivities="_75I3QflKEeO6rp_93XQlYA" linkToPredecessor="_tM3rwPl5EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tM3rwPl5EeO6rp_93XQlYA" guid="_tM3rwPl5EeO6rp_93XQlYA" pred="_8akpAflNEeO6rp_93XQlYA"/>
     </childPackages>
-    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_66WTwflKEeO6rp_93XQlYA" name="openUp_FDD_lifecycle" guid="_66WTwflKEeO6rp_93XQlYA" presentationName="openUp_FDD_lifecycle" breakdownElements="_75I3QflKEeO6rp_93XQlYA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_i3CdMPl1EeO6rp_93XQlYA" name="Build a Features List" guid="_i3CdMPl1EeO6rp_93XQlYA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_q3tIAPl1EeO6rp_93XQlYA" name="Build a Features List Iteration" guid="_q3tIAPl1EeO6rp_93XQlYA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_CLzgoPl2EeO6rp_93XQlYA" name="New Activity" guid="_CLzgoPl2EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_CLzgofl2EeO6rp_93XQlYA" name="New Activity" guid="_CLzgofl2EeO6rp_93XQlYA" presentationName="Form the Features List Team" superActivities="_q3tIAfl1EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_JRhmIPl2EeO6rp_93XQlYA" name="New Activity_2" guid="_JRhmIPl2EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_JRhmIfl2EeO6rp_93XQlYA" name="New Activity_2" guid="_JRhmIfl2EeO6rp_93XQlYA" presentationName="Build  Features List" superActivities="_q3tIAfl1EeO6rp_93XQlYA" linkToPredecessor="_OlKqAPl2EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_OlKqAPl2EeO6rp_93XQlYA" guid="_OlKqAPl2EeO6rp_93XQlYA" pred="_CLzgofl2EeO6rp_93XQlYA"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_q3tIAfl1EeO6rp_93XQlYA" name="Build a Features List Iteration" guid="_q3tIAfl1EeO6rp_93XQlYA" presentationName="Build a Features List Iteration" superActivities="_i3CdMfl1EeO6rp_93XQlYA" isRepeatable="true" breakdownElements="_yXbo8Pl1EeO6rp_93XQlYA _CLzgofl2EeO6rp_93XQlYA _JRhmIfl2EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TeamProfile" xmi:id="_yXbo8Pl1EeO6rp_93XQlYA" name="Domain and development team" guid="_yXbo8Pl1EeO6rp_93XQlYA" presentationName="Domain and development team" superActivities="_q3tIAfl1EeO6rp_93XQlYA" teamRoles="_-3kIsPl1EeO6rp_93XQlYA _-3kIsfl1EeO6rp_93XQlYA _-3kIsvl1EeO6rp_93XQlYA _-3kIs_l1EeO6rp_93XQlYA _-3kItPl1EeO6rp_93XQlYA _-3kItfl1EeO6rp_93XQlYA _-3kvwPl1EeO6rp_93XQlYA _-3kvwfl1EeO6rp_93XQlYA _-3kvwvl1EeO6rp_93XQlYA _-3kvw_l1EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kIsPl1EeO6rp_93XQlYA" name="chief_architect" guid="_-3kIsPl1EeO6rp_93XQlYA" presentationName="Chief Architect" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_9wfDUPleEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kIsfl1EeO6rp_93XQlYA" name="chief_programmer" guid="_-3kIsfl1EeO6rp_93XQlYA" presentationName="Chief Programmer" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_6IivcPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kIsvl1EeO6rp_93XQlYA" name="class_owner" guid="_-3kIsvl1EeO6rp_93XQlYA" presentationName="Class Owner" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#__Du3EPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kIs_l1EeO6rp_93XQlYA" name="development_manager" guid="_-3kIs_l1EeO6rp_93XQlYA" presentationName="Development Manager" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_2tlrgPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kItPl1EeO6rp_93XQlYA" name="domain_expert" guid="_-3kItPl1EeO6rp_93XQlYA" presentationName="Domain Expert" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_B6UCoPljEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kItfl1EeO6rp_93XQlYA" name="project_manager" guid="_-3kItfl1EeO6rp_93XQlYA" presentationName="Project Manager" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_jYMnUPlmEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kvwPl1EeO6rp_93XQlYA" name="analyst" guid="_-3kvwPl1EeO6rp_93XQlYA" presentationName="Analyst" isPlanned="false">
+          <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kvwfl1EeO6rp_93XQlYA" name="architect" guid="_-3kvwfl1EeO6rp_93XQlYA" presentationName="Architect" isPlanned="false">
+          <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kvwvl1EeO6rp_93XQlYA" name="stakeholder" guid="_-3kvwvl1EeO6rp_93XQlYA" presentationName="Stakeholder" isPlanned="false">
+          <Role href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-3kvw_l1EeO6rp_93XQlYA" name="product_owner" guid="_-3kvw_l1EeO6rp_93XQlYA" presentationName="Product Owner" isPlanned="false">
+          <Role href="uma://_A118oMYaEdyXeo04os5BOw#_-a85MeCEEeC1y_NExchKwQ"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_i3CdMfl1EeO6rp_93XQlYA" name="Build a Features List" guid="_i3CdMfl1EeO6rp_93XQlYA" presentationName="Build a Features List" briefDescription="Based on the partitioning of the domain by the Domain Experts in process 1 , the team breaks the domain into a number of areas (major feature Sets). Each area is further broken into a number of activities (feature sets). Each step within an activity is identified as a feature. The result is a hierarchically categorized features list." superActivities="_66WTwflKEeO6rp_93XQlYA" linkToPredecessor="_ceJEoPl5EeO6rp_93XQlYA" breakdownElements="_q3tIAfl1EeO6rp_93XQlYA _uq-lUPl1EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_uq-lUPl1EeO6rp_93XQlYA" name="Build a Features List MileStone" guid="_uq-lUPl1EeO6rp_93XQlYA" presentationName="Build a Features List MileStone" superActivities="_i3CdMfl1EeO6rp_93XQlYA" linkToPredecessor="_ustG0Pl5EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ceJEoPl5EeO6rp_93XQlYA" guid="_ceJEoPl5EeO6rp_93XQlYA" pred="_75I3QflKEeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ustG0Pl5EeO6rp_93XQlYA" guid="_ustG0Pl5EeO6rp_93XQlYA" pred="_q3tIAfl1EeO6rp_93XQlYA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Q3Aw0Pl2EeO6rp_93XQlYA" name="Plan by Feature" guid="_Q3Aw0Pl2EeO6rp_93XQlYA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ThBgAPl2EeO6rp_93XQlYA" name="Plan by Feature Iteration" guid="_ThBgAPl2EeO6rp_93XQlYA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_l4u3IPl2EeO6rp_93XQlYA" name="New Activity" guid="_l4u3IPl2EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_l4u3Ifl2EeO6rp_93XQlYA" name="New Activity" guid="_l4u3Ifl2EeO6rp_93XQlYA" presentationName="Form the Planning Team" superActivities="_ThBgAfl2EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_povlEfl2EeO6rp_93XQlYA" name="New Activity_2" guid="_povlEfl2EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_povlEvl2EeO6rp_93XQlYA" name="New Activity_2" guid="_povlEvl2EeO6rp_93XQlYA" presentationName="Determine the Development Sequence" superActivities="_ThBgAfl2EeO6rp_93XQlYA" linkToPredecessor="_FuXzAPl3EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FuXzAPl3EeO6rp_93XQlYA" guid="_FuXzAPl3EeO6rp_93XQlYA" pred="_l4u3Ifl2EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_uGF6IPl2EeO6rp_93XQlYA" name="New Activity_3" guid="_uGF6IPl2EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_uGF6Ifl2EeO6rp_93XQlYA" name="New Activity_3" guid="_uGF6Ifl2EeO6rp_93XQlYA" presentationName="Assign Feature Sets to Cheief Programmer" superActivities="_ThBgAfl2EeO6rp_93XQlYA" linkToPredecessor="_GpHkAPl3EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GpHkAPl3EeO6rp_93XQlYA" guid="_GpHkAPl3EeO6rp_93XQlYA" pred="_l4u3Ifl2EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_1pCHIPl2EeO6rp_93XQlYA" name="New Activity_4" guid="_1pCHIPl2EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_1pCHIfl2EeO6rp_93XQlYA" name="New Activity_4" guid="_1pCHIfl2EeO6rp_93XQlYA" presentationName="Assign Classes to Developers" superActivities="_ThBgAfl2EeO6rp_93XQlYA" linkToPredecessor="_HUYukPl3EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_HUYukPl3EeO6rp_93XQlYA" guid="_HUYukPl3EeO6rp_93XQlYA" pred="_l4u3Ifl2EeO6rp_93XQlYA"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_ThBgAfl2EeO6rp_93XQlYA" name="Plan by Feature Iteration" guid="_ThBgAfl2EeO6rp_93XQlYA" presentationName="Plan by Feature Iteration" superActivities="_Q3Aw0fl2EeO6rp_93XQlYA" isRepeatable="true" breakdownElements="_Z04DsPl2EeO6rp_93XQlYA _l4u3Ifl2EeO6rp_93XQlYA _povlEvl2EeO6rp_93XQlYA _uGF6Ifl2EeO6rp_93XQlYA _1pCHIfl2EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TeamProfile" xmi:id="_Z04DsPl2EeO6rp_93XQlYA" name="Management Team" guid="_Z04DsPl2EeO6rp_93XQlYA" presentationName="Management Team" superActivities="_ThBgAfl2EeO6rp_93XQlYA" teamRoles="_fmO-UPl2EeO6rp_93XQlYA _fmPlYPl2EeO6rp_93XQlYA _fmPlYfl2EeO6rp_93XQlYA _fmPlYvl2EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fmO-UPl2EeO6rp_93XQlYA" name="chief_architect" guid="_fmO-UPl2EeO6rp_93XQlYA" presentationName="Chief Architect" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_9wfDUPleEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fmPlYPl2EeO6rp_93XQlYA" name="chief_programmer" guid="_fmPlYPl2EeO6rp_93XQlYA" presentationName="Chief Programmer" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_6IivcPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fmPlYfl2EeO6rp_93XQlYA" name="development_manager" guid="_fmPlYfl2EeO6rp_93XQlYA" presentationName="Development Manager" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_2tlrgPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fmPlYvl2EeO6rp_93XQlYA" name="project_manager" guid="_fmPlYvl2EeO6rp_93XQlYA" presentationName="Project Manager" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_jYMnUPlmEeOXpe7a-hAPbg"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Q3Aw0fl2EeO6rp_93XQlYA" name="Plan by Feature" guid="_Q3Aw0fl2EeO6rp_93XQlYA" presentationName="Plan by Feature" briefDescription="The project Manager, Development Manager, and Chief Programmers plan the order that the features are to be implemented, based on feature dependencies, load across the development team, and the complexity of the features to be implemented." superActivities="_66WTwflKEeO6rp_93XQlYA" linkToPredecessor="_dQbdMPl5EeO6rp_93XQlYA" breakdownElements="_ThBgAfl2EeO6rp_93XQlYA _XSY40Pl2EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_XSY40Pl2EeO6rp_93XQlYA" name="Plan by Feature Milestone" guid="_XSY40Pl2EeO6rp_93XQlYA" presentationName="Plan by Feature Milestone" superActivities="_Q3Aw0fl2EeO6rp_93XQlYA" linkToPredecessor="_v_b6APl5EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_dQbdMPl5EeO6rp_93XQlYA" guid="_dQbdMPl5EeO6rp_93XQlYA" pred="_i3CdMfl1EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_v_b6APl5EeO6rp_93XQlYA" guid="_v_b6APl5EeO6rp_93XQlYA" pred="_ThBgAfl2EeO6rp_93XQlYA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Os1i0Pl3EeO6rp_93XQlYA" name="Design by Feature" guid="_Os1i0Pl3EeO6rp_93XQlYA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Qh18oPl3EeO6rp_93XQlYA" name="Design by Feature Iteration" guid="_Qh18oPl3EeO6rp_93XQlYA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lBtTEfl3EeO6rp_93XQlYA" name="New Activity" guid="_lBtTEfl3EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_lBtTEvl3EeO6rp_93XQlYA" name="New Activity" guid="_lBtTEvl3EeO6rp_93XQlYA" presentationName="Form a Feature Team " superActivities="_Qh18ofl3EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xZMNIPl3EeO6rp_93XQlYA" name="New Activity_2" guid="_xZMNIPl3EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xZMNIfl3EeO6rp_93XQlYA" name="New Activity_2" guid="_xZMNIfl3EeO6rp_93XQlYA" presentationName="Conduct a Domain Walkthrough " superActivities="_Qh18ofl3EeO6rp_93XQlYA" linkToPredecessor="_cNlVkPl4EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cNlVkPl4EeO6rp_93XQlYA" guid="_cNlVkPl4EeO6rp_93XQlYA" pred="_lBtTEvl3EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7OTREPl3EeO6rp_93XQlYA" name="New Activity_3" guid="_7OTREPl3EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7OTREfl3EeO6rp_93XQlYA" name="New Activity_3" guid="_7OTREfl3EeO6rp_93XQlYA" presentationName="Study the Referenced Docs" superActivities="_Qh18ofl3EeO6rp_93XQlYA" linkToPredecessor="_bn0WEPl4EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_bn0WEPl4EeO6rp_93XQlYA" guid="_bn0WEPl4EeO6rp_93XQlYA" pred="_lBtTEvl3EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_GWXKoPl4EeO6rp_93XQlYA" name="New Activity_4" guid="_GWXKoPl4EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_GWXKofl4EeO6rp_93XQlYA" name="New Activity_4" guid="_GWXKofl4EeO6rp_93XQlYA" presentationName="Develop the Sequence Diagram " superActivities="_Qh18ofl3EeO6rp_93XQlYA" linkToPredecessor="_e2ppkPl4EeO6rp_93XQlYA _e2ss4Pl4EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_e2ppkPl4EeO6rp_93XQlYA" guid="_e2ppkPl4EeO6rp_93XQlYA" pred="_7OTREfl3EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_e2ss4Pl4EeO6rp_93XQlYA" guid="_e2ss4Pl4EeO6rp_93XQlYA" pred="_xZMNIfl3EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LsxOoPl4EeO6rp_93XQlYA" name="New Activity_5" guid="_LsxOoPl4EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_LsxOofl4EeO6rp_93XQlYA" name="New Activity_5" guid="_LsxOofl4EeO6rp_93XQlYA" presentationName="Refine the Object Model" superActivities="_Qh18ofl3EeO6rp_93XQlYA" linkToPredecessor="_fak2APl4EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fak2APl4EeO6rp_93XQlYA" guid="_fak2APl4EeO6rp_93XQlYA" pred="_GWXKofl4EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Phqckfl4EeO6rp_93XQlYA" name="New Activity_6" guid="_Phqckfl4EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Phqckvl4EeO6rp_93XQlYA" name="New Activity_6" guid="_Phqckvl4EeO6rp_93XQlYA" presentationName="Write Class and Method Prologue" superActivities="_Qh18ofl3EeO6rp_93XQlYA" linkToPredecessor="_f01wIPl4EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_f01wIPl4EeO6rp_93XQlYA" guid="_f01wIPl4EeO6rp_93XQlYA" pred="_LsxOofl4EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_XJQgEfl4EeO6rp_93XQlYA" name="New Activity_7" guid="_XJQgEfl4EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_XJRHIPl4EeO6rp_93XQlYA" name="New Activity_7" guid="_XJRHIPl4EeO6rp_93XQlYA" presentationName="Design Inspection" superActivities="_Qh18ofl3EeO6rp_93XQlYA" linkToPredecessor="_gTHnkPl4EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_gTHnkPl4EeO6rp_93XQlYA" guid="_gTHnkPl4EeO6rp_93XQlYA" pred="_Phqckvl4EeO6rp_93XQlYA"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_Qh18ofl3EeO6rp_93XQlYA" name="Design by Feature Iteration" guid="_Qh18ofl3EeO6rp_93XQlYA" presentationName="Design by Feature Iteration" superActivities="_Os1i0fl3EeO6rp_93XQlYA" isRepeatable="true" breakdownElements="_VlT2gPl3EeO6rp_93XQlYA _lBtTEvl3EeO6rp_93XQlYA _xZMNIfl3EeO6rp_93XQlYA _7OTREfl3EeO6rp_93XQlYA _GWXKofl4EeO6rp_93XQlYA _LsxOofl4EeO6rp_93XQlYA _Phqckvl4EeO6rp_93XQlYA _XJRHIPl4EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TeamProfile" xmi:id="_VlT2gPl3EeO6rp_93XQlYA" name="Designing team" guid="_VlT2gPl3EeO6rp_93XQlYA" presentationName="Designing team" superActivities="_Qh18ofl3EeO6rp_93XQlYA" teamRoles="_fTfMAPl3EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fTfMAPl3EeO6rp_93XQlYA" name="chief_programmer" guid="_fTfMAPl3EeO6rp_93XQlYA" presentationName="Chief Programmer" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_6IivcPliEeOXpe7a-hAPbg"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Os1i0fl3EeO6rp_93XQlYA" name="Design by Feature" guid="_Os1i0fl3EeO6rp_93XQlYA" presentationName="Design by Feature" briefDescription="A number of features are scheduled for development by assigning them to a Chief Programmer. The Chief Programmer selects features for development from his or her “inbox” of assigned features." superActivities="_66WTwflKEeO6rp_93XQlYA" linkToPredecessor="_eeCf0Pl5EeO6rp_93XQlYA" breakdownElements="_Qh18ofl3EeO6rp_93XQlYA _SmtXYPl3EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_SmtXYPl3EeO6rp_93XQlYA" name="Design by Feature Milestone" guid="_SmtXYPl3EeO6rp_93XQlYA" presentationName="Design by Feature Milestone" superActivities="_Os1i0fl3EeO6rp_93XQlYA" linkToPredecessor="_xMlpoPl5EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_eeCf0Pl5EeO6rp_93XQlYA" guid="_eeCf0Pl5EeO6rp_93XQlYA" pred="_Q3Aw0fl2EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_xMlpoPl5EeO6rp_93XQlYA" guid="_xMlpoPl5EeO6rp_93XQlYA" pred="_Qh18ofl3EeO6rp_93XQlYA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_i_V9QPl4EeO6rp_93XQlYA" name="Build by Feature" guid="_i_V9QPl4EeO6rp_93XQlYA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_k58BsPl4EeO6rp_93XQlYA" name="Build by Feature Iteration" guid="_k58BsPl4EeO6rp_93XQlYA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_5fqvkfl4EeO6rp_93XQlYA" name="New Activity" guid="_5fqvkfl4EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_5fqvkvl4EeO6rp_93XQlYA" name="New Activity" guid="_5fqvkvl4EeO6rp_93XQlYA" presentationName="Code" superActivities="_k58Bsfl4EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7RHfEfl4EeO6rp_93XQlYA" name="New Activity_2" guid="_7RHfEfl4EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7RHfEvl4EeO6rp_93XQlYA" name="New Activity_2" guid="_7RHfEvl4EeO6rp_93XQlYA" presentationName="Unit Testing" superActivities="_k58Bsfl4EeO6rp_93XQlYA" linkToPredecessor="_OlBYsPl5EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_OlBYsPl5EeO6rp_93XQlYA" guid="_OlBYsPl5EeO6rp_93XQlYA" pred="_5fqvkvl4EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__KEtoPl4EeO6rp_93XQlYA" name="New Activity_3" guid="__KEtoPl4EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="__KEtofl4EeO6rp_93XQlYA" name="New Activity_3" guid="__KEtofl4EeO6rp_93XQlYA" presentationName="Code Inspection" superActivities="_k58Bsfl4EeO6rp_93XQlYA" linkToPredecessor="_OCghgPl5EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_OCghgPl5EeO6rp_93XQlYA" guid="_OCghgPl5EeO6rp_93XQlYA" pred="_5fqvkvl4EeO6rp_93XQlYA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_GhLeEPl5EeO6rp_93XQlYA" name="New Activity_4" guid="_GhLeEPl5EeO6rp_93XQlYA">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_GhLeEfl5EeO6rp_93XQlYA" name="New Activity_4" guid="_GhLeEfl5EeO6rp_93XQlYA" presentationName="Promote to Build" superActivities="_k58Bsfl4EeO6rp_93XQlYA" linkToPredecessor="_QDAZoPl5EeO6rp_93XQlYA _QDDc8Pl5EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_QDAZoPl5EeO6rp_93XQlYA" guid="_QDAZoPl5EeO6rp_93XQlYA" pred="_7RHfEvl4EeO6rp_93XQlYA"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_QDDc8Pl5EeO6rp_93XQlYA" guid="_QDDc8Pl5EeO6rp_93XQlYA" pred="__KEtofl4EeO6rp_93XQlYA"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_k58Bsfl4EeO6rp_93XQlYA" name="Build by Feature Iteration" guid="_k58Bsfl4EeO6rp_93XQlYA" presentationName="Build by Feature Iteration" superActivities="_i_V9Qfl4EeO6rp_93XQlYA" isRepeatable="true" breakdownElements="_qOLigPl4EeO6rp_93XQlYA _5fqvkvl4EeO6rp_93XQlYA _7RHfEvl4EeO6rp_93XQlYA __KEtofl4EeO6rp_93XQlYA _GhLeEfl5EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TeamProfile" xmi:id="_qOLigPl4EeO6rp_93XQlYA" name="Development Team" guid="_qOLigPl4EeO6rp_93XQlYA" presentationName="Development Team" superActivities="_k58Bsfl4EeO6rp_93XQlYA" teamRoles="_y9A64Pl4EeO6rp_93XQlYA _y9A64fl4EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_y9A64Pl4EeO6rp_93XQlYA" name="development_manager" guid="_y9A64Pl4EeO6rp_93XQlYA" presentationName="Development Manager" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_2tlrgPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_y9A64fl4EeO6rp_93XQlYA" name="developer" guid="_y9A64fl4EeO6rp_93XQlYA" presentationName="Developer" isPlanned="false">
+          <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_i_V9Qfl4EeO6rp_93XQlYA" name="Build by Feature" guid="_i_V9Qfl4EeO6rp_93XQlYA" presentationName="Build by Feature" briefDescription="Working from the design package produced during the Design by Feature process, the class owners implement the items necessary for their class to support the design for the feature(s) in the work package. The code developed is then unit tested and code inspected, the order of which is determined by the Chief Programmer. After a successful code inspection, the code is permitted to build. " superActivities="_66WTwflKEeO6rp_93XQlYA" linkToPredecessor="_fTcd0Pl5EeO6rp_93XQlYA" breakdownElements="_k58Bsfl4EeO6rp_93XQlYA _nxe2kPl4EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_nxe2kPl4EeO6rp_93XQlYA" name="Build by Feature Milestone" guid="_nxe2kPl4EeO6rp_93XQlYA" presentationName="Build by Feature Milestone" superActivities="_i_V9Qfl4EeO6rp_93XQlYA" linkToPredecessor="_yTZgsPl5EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fTcd0Pl5EeO6rp_93XQlYA" guid="_fTcd0Pl5EeO6rp_93XQlYA" pred="_Os1i0fl3EeO6rp_93XQlYA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_yTZgsPl5EeO6rp_93XQlYA" guid="_yTZgsPl5EeO6rp_93XQlYA" pred="_k58Bsfl4EeO6rp_93XQlYA"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_66WTwflKEeO6rp_93XQlYA" name="openUp_FDD_lifecycle" guid="_66WTwflKEeO6rp_93XQlYA" presentationName="OpenUp FDD Lifecycle" briefDescription="This provides a list of delivery processes that have been published." breakdownElements="_75I3QflKEeO6rp_93XQlYA _i3CdMfl1EeO6rp_93XQlYA _Q3Aw0fl2EeO6rp_93XQlYA _Os1i0fl3EeO6rp_93XQlYA _i_V9Qfl4EeO6rp_93XQlYA">
       <presentation xmi:id="-MRNrvNHDCTVChQpLQ_hszg" href="uma://-MRNrvNHDCTVChQpLQ_hszg#-MRNrvNHDCTVChQpLQ_hszg"/>
       <defaultContext href="uma://_T6l317ekEd-D7YZN9NgldQ#_ZdhXoPlKEeO6rp_93XQlYA"/>
       <validContext href="uma://_T6l317ekEd-D7YZN9NgldQ#_ZdhXoPlKEeO6rp_93XQlYA"/>
