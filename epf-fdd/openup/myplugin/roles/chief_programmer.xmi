@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Aaf7-gTKluvJuQFqCCCASw" name="new_role,_6IivcPliEeOXpe7a-hAPbg" guid="-Aaf7-gTKluvJuQFqCCCASw" changeDate="2014-06-21T19:55:50.731+0300">
+  <mainDescription>&lt;p>&#xD;
+    Responsible for leading small teams of 3-6 developers through low-level analysis, design and development of the new&#xD;
+    software’s features.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Chief Programmers also work with other chief programmers to resolve day-to-day technical and resourcing issues.&#xD;
+&lt;/p></mainDescription>
+  <skills>good leadership and techincal&amp;nbsp;skills</skills>
+</org.eclipse.epf.uma:RoleDescription>

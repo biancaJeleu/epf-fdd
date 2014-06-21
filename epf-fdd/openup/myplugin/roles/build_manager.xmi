@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6GoXCXp-EnWn0e2iVTWoqA" name="new_role,_VM_NMPljEeOXpe7a-hAPbg" guid="-6GoXCXp-EnWn0e2iVTWoqA" changeDate="2014-06-21T19:47:32.882+0300">
+  <mainDescription>&lt;p>&#xD;
+    - manage version control system&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - publish generated reports or documentation&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - write build or deployment scripts&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:RoleDescription>
