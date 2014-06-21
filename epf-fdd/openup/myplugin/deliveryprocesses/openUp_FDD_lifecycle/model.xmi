@@ -206,12 +206,15 @@
           <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_QDDc8Pl5EeO6rp_93XQlYA" guid="_QDDc8Pl5EeO6rp_93XQlYA" pred="__KEtofl4EeO6rp_93XQlYA"/>
         </childPackages>
         <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_k58Bsfl4EeO6rp_93XQlYA" name="Build by Feature Iteration" guid="_k58Bsfl4EeO6rp_93XQlYA" presentationName="Build by Feature Iteration" superActivities="_i_V9Qfl4EeO6rp_93XQlYA" isRepeatable="true" breakdownElements="_qOLigPl4EeO6rp_93XQlYA _5fqvkvl4EeO6rp_93XQlYA _7RHfEvl4EeO6rp_93XQlYA __KEtofl4EeO6rp_93XQlYA _GhLeEfl5EeO6rp_93XQlYA"/>
-        <processElements xsi:type="org.eclipse.epf.uma:TeamProfile" xmi:id="_qOLigPl4EeO6rp_93XQlYA" name="Development Team" guid="_qOLigPl4EeO6rp_93XQlYA" presentationName="Development Team" superActivities="_k58Bsfl4EeO6rp_93XQlYA" teamRoles="_y9A64Pl4EeO6rp_93XQlYA _y9A64fl4EeO6rp_93XQlYA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TeamProfile" xmi:id="_qOLigPl4EeO6rp_93XQlYA" name="Development Team" guid="_qOLigPl4EeO6rp_93XQlYA" presentationName="Development Team" superActivities="_k58Bsfl4EeO6rp_93XQlYA" teamRoles="_y9A64Pl4EeO6rp_93XQlYA _KbAjcPmGEeOXpe7a-hAPbg _MD-sYPmGEeOXpe7a-hAPbg"/>
         <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_y9A64Pl4EeO6rp_93XQlYA" name="development_manager" guid="_y9A64Pl4EeO6rp_93XQlYA" presentationName="Development Manager" isPlanned="false">
           <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_2tlrgPliEeOXpe7a-hAPbg"/>
         </processElements>
-        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_y9A64fl4EeO6rp_93XQlYA" name="developer" guid="_y9A64fl4EeO6rp_93XQlYA" presentationName="Developer" isPlanned="false">
-          <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_KbAjcPmGEeOXpe7a-hAPbg" name="class_owner" guid="_KbAjcPmGEeOXpe7a-hAPbg" presentationName="Class Owner" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#__Du3EPliEeOXpe7a-hAPbg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_MD-sYPmGEeOXpe7a-hAPbg" name="chief_programmer" guid="_MD-sYPmGEeOXpe7a-hAPbg" presentationName="Chief Programmer" isPlanned="false">
+          <Role href="uma://_hObIIPlKEeO6rp_93XQlYA#_6IivcPliEeOXpe7a-hAPbg"/>
         </processElements>
       </childPackages>
       <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_i_V9Qfl4EeO6rp_93XQlYA" name="Build by Feature" guid="_i_V9Qfl4EeO6rp_93XQlYA" presentationName="Build by Feature" briefDescription="Working from the design package produced during the Design by Feature process, the class owners implement the items necessary for their class to support the design for the feature(s) in the work package. The code developed is then unit tested and code inspected, the order of which is determined by the Chief Programmer. After a successful code inspection, the code is permitted to build. " superActivities="_66WTwflKEeO6rp_93XQlYA" linkToPredecessor="_fTcd0Pl5EeO6rp_93XQlYA" breakdownElements="_k58Bsfl4EeO6rp_93XQlYA _nxe2kPl4EeO6rp_93XQlYA"/>

@@ -800,5 +800,6 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_4ulTgMg7EdyXeo04os5BOw#_9u1xiLekEd-D7YZN9NgldQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_4ulTgMg7EdyXeo04os5BOw#_9u1xh7ekEd-D7YZN9NgldQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_4ulTgMg7EdyXeo04os5BOw#_9u1xibekEd-D7YZN9NgldQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_hObIIPlKEeO6rp_93XQlYA#_xkFSsPlwEeOXpe7a-hAPbg"/>
   <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_hObIIPlKEeO6rp_93XQlYA#_Wqu4MPlQEeO6rp_93XQlYA"/>
 </org.eclipse.epf.uma:MethodConfiguration>

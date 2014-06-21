@@ -13,14 +13,61 @@
     <methodElementProperty xmi:id="_hR-LYvlKEeO6rp_93XQlYA" name="plugin_synFree" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIIflKEeO6rp_93XQlYA" name="Content" guid="_hObIIflKEeO6rp_93XQlYA">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIIvlKEeO6rp_93XQlYA" name="Categories" guid="_hObIIvlKEeO6rp_93XQlYA">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObII_lKEeO6rp_93XQlYA" name="Domains" guid="_hObII_lKEeO6rp_93XQlYA"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIJPlKEeO6rp_93XQlYA" name="Disciplines" guid="_hObIJPlKEeO6rp_93XQlYA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObII_lKEeO6rp_93XQlYA" name="Domains" guid="_hObII_lKEeO6rp_93XQlYA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_22xVgPmKEeOXpe7a-hAPbg" name="Build a Features List" guid="_22xVgPmKEeOXpe7a-hAPbg" presentationName="Build a Features List" workProducts="_WQ9EQPlmEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_7xGhgPmKEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_9XhswPmKEeOXpe7a-hAPbg" name="build_feature" guid="_9XhswPmKEeOXpe7a-hAPbg" presentationName="Build by feature" workProducts="_l7fOAPlnEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_-a080PmKEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_aO8kAPmLEeOXpe7a-hAPbg" name="design" guid="_aO8kAPmLEeOXpe7a-hAPbg" presentationName="Design by feature" workProducts="_ZfdyMPlnEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_bsVIAPmLEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_eYa60PmLEeOXpe7a-hAPbg" name="plan" guid="_eYa60PmLEeOXpe7a-hAPbg" presentationName="Plan by feature" workProducts="_QfCTgPlnEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_fchcIPmLEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_hlvLYPmLEeOXpe7a-hAPbg" name="develop_model" guid="_hlvLYPmLEeOXpe7a-hAPbg" presentationName="Develop Model" workProducts="_z3_pUPlgEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_ixKcsPmLEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_kGuhcPmLEeOXpe7a-hAPbg" name="Integration and deploymnet" guid="_kGuhcPmLEeOXpe7a-hAPbg" presentationName="Integration and deploymnet" workProducts="_lm6LgPlvEeOXpe7a-hAPbg _ppIq0PlvEeOXpe7a-hAPbg _rhQDAPlvEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_laeBQPmLEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_s-kE0PmLEeOXpe7a-hAPbg" name="Work Products" guid="_s-kE0PmLEeOXpe7a-hAPbg" presentationName="Work Products" workProducts="_ZfdyMPlnEeOXpe7a-hAPbg _QfCTgPlnEeOXpe7a-hAPbg _WQ9EQPlmEeOXpe7a-hAPbg _z3_pUPlgEeOXpe7a-hAPbg _l7fOAPlnEeOXpe7a-hAPbg _lm6LgPlvEeOXpe7a-hAPbg _ppIq0PlvEeOXpe7a-hAPbg _rhQDAPlvEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_uBL_cPmLEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIJPlKEeO6rp_93XQlYA" name="Disciplines" guid="_hObIJPlKEeO6rp_93XQlYA">
+          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_7Cn1cPmLEeOXpe7a-hAPbg" name="task" guid="_7Cn1cPmLEeOXpe7a-hAPbg" presentationName="Tasks" disciplines="_88ikcPmLEeOXpe7a-hAPbg _H5WQQPmMEeOXpe7a-hAPbg _zm_78PmMEeOXpe7a-hAPbg _-9CnIPmMEeOXpe7a-hAPbg _HutREPmNEeOXpe7a-hAPbg _TdM4gPmNEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_Dxb_sPmMEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_88ikcPmLEeOXpe7a-hAPbg" name="Integration and deployment" guid="_88ikcPmLEeOXpe7a-hAPbg" presentationName="Integration and deployment" tasks="_FN8kUPloEeOXpe7a-hAPbg _zzRdMPlnEeOXpe7a-hAPbg _41lggPlnEeOXpe7a-hAPbg _8Vze8PlnEeOXpe7a-hAPbg _wVegoPlnEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_AnH_0PmMEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_H5WQQPmMEeOXpe7a-hAPbg" name="design" guid="_H5WQQPmMEeOXpe7a-hAPbg" presentationName="Design by feature" tasks="_5VPGYPlmEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_KsOnkPmMEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_zm_78PmMEeOXpe7a-hAPbg" name="build" guid="_zm_78PmMEeOXpe7a-hAPbg" presentationName="Build Feature List" tasks="_Taeb0PllEeOXpe7a-hAPbg _P54NcPlmEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_4eM7cPmMEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_-9CnIPmMEeOXpe7a-hAPbg" name="build_feature" guid="_-9CnIPmMEeOXpe7a-hAPbg" presentationName="Build by feature" tasks="__ho-QPlmEeOXpe7a-hAPbg _9gGyEPlrEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_AyDA8PmNEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_HutREPmNEeOXpe7a-hAPbg" name="design_model" guid="_HutREPmNEeOXpe7a-hAPbg" presentationName="Design Overall Model" tasks="_YqIQMPloEeOXpe7a-hAPbg _McNCIPllEeOXpe7a-hAPbg _Lq_kcPlhEeOXpe7a-hAPbg _ebP-cPlhEeOXpe7a-hAPbg _j3iA8PlhEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_J4BG8PmNEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_TdM4gPmNEeOXpe7a-hAPbg" name="plan" guid="_TdM4gPmNEeOXpe7a-hAPbg" presentationName="Plan By Feature" tasks="_pp8SMPlmEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_UtATgPmNEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIJflKEeO6rp_93XQlYA" name="RoleSets" guid="_hObIJflKEeO6rp_93XQlYA">
           <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_qqGoUPleEeOXpe7a-hAPbg" name="base_role_set" guid="_qqGoUPleEeOXpe7a-hAPbg" presentationName="Base Role Set" briefDescription="This is the list of software design roles." roles="_9wfDUPleEeOXpe7a-hAPbg _6IivcPliEeOXpe7a-hAPbg __Du3EPliEeOXpe7a-hAPbg _2tlrgPliEeOXpe7a-hAPbg _B6UCoPljEeOXpe7a-hAPbg _jYMnUPlmEeOXpe7a-hAPbg">
             <methodElementProperty xmi:id="_3XlnkPleEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_LUbMoPljEeOXpe7a-hAPbg" name="integration_deploy_role_set" guid="_LUbMoPljEeOXpe7a-hAPbg" presentationName="Integration and Deployment Supporting Roles" roles="_VM_NMPljEeOXpe7a-hAPbg _XtOVUPljEeOXpe7a-hAPbg _TCtuAPljEeOXpe7a-hAPbg">
             <methodElementProperty xmi:id="_OxxdQPljEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" xmi:id="_gr5oEPmFEeOXpe7a-hAPbg" name="roles" guid="_gr5oEPmFEeOXpe7a-hAPbg" presentationName="Roles" roleSets="_qqGoUPleEeOXpe7a-hAPbg _LUbMoPljEeOXpe7a-hAPbg">
+            <methodElementProperty xmi:id="_hRFYwPmFEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hObIJvlKEeO6rp_93XQlYA" name="WP Types" guid="_hObIJvlKEeO6rp_93XQlYA"/>
@@ -32,9 +79,11 @@
           </childPackages>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Wqu4MPlQEeO6rp_93XQlYA" name="new_custom_category" guid="_Wqu4MPlQEeO6rp_93XQlYA" presentationName="Feature Driven Development">
             <methodElementProperty xmi:id="_hwUskPlQEeO6rp_93XQlYA" name="me_edited" value="true"/>
-            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSet" href="#_qqGoUPleEeOXpe7a-hAPbg"/>
-            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSet" href="#_LUbMoPljEeOXpe7a-hAPbg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Roadmap" href="#_z0nx8PlwEeOXpe7a-hAPbg"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_66WTwPlKEeO6rp_93XQlYA#_66WTwflKEeO6rp_93XQlYA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" href="#_gr5oEPmFEeOXpe7a-hAPbg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Domain" href="#_s-kE0PmLEeOXpe7a-hAPbg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" href="#_7Cn1cPmLEeOXpe7a-hAPbg"/>
           </contentElements>
         </childPackages>
       </childPackages>
@@ -106,7 +155,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ZfdyMPlnEeOXpe7a-hAPbg" name="design_package" guid="_ZfdyMPlnEeOXpe7a-hAPbg" presentationName="Design package">
             <methodElementProperty xmi:id="_fGIfwPlnEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_l7fOAPlnEeOXpe7a-hAPbg" name="product" guid="_l7fOAPlnEeOXpe7a-hAPbg" presentationName="product">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_l7fOAPlnEeOXpe7a-hAPbg" name="product" guid="_l7fOAPlnEeOXpe7a-hAPbg" presentationName="Product">
             <methodElementProperty xmi:id="_m2jvIPlnEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YqIQMPloEeOXpe7a-hAPbg" name="form_modeling_team" guid="_YqIQMPloEeOXpe7a-hAPbg" presentationName="Form the modeling team" performedBy="_jYMnUPlmEeOXpe7a-hAPbg">
