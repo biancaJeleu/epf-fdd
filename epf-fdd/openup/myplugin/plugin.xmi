@@ -8,6 +8,7 @@
     <resourceDescriptors xmi:id="_ISHcwPlkEeOXpe7a-hAPbg" id="-nGlrJcEZzsw9PhVItMcPWQ" uri="roles/development_manager.xmi"/>
     <resourceDescriptors xmi:id="_uKJ_8PlkEeOXpe7a-hAPbg" id="-Aaf7-gTKluvJuQFqCCCASw" uri="roles/chief_programmer.xmi"/>
     <resourceDescriptors xmi:id="_jaOnoPlmEeOXpe7a-hAPbg" id="-tjIn2ptMe29KG96Z260zJg" uri="roles/project_manager.xmi"/>
+    <resourceDescriptors xmi:id="_xijQIPoJEeObacoUe-vmQQ" id="-b6qm3vjWM31rYvSdCS0O4w" uri="guidances/roadmaps/fdd_roadmap.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_hObIIPlKEeO6rp_93XQlYA" name="myplugin" guid="_hObIIPlKEeO6rp_93XQlYA">
     <methodElementProperty xmi:id="_hR-LYvlKEeO6rp_93XQlYA" name="plugin_synFree" value="true"/>
@@ -211,6 +212,7 @@
           <methodElementProperty xmi:id="_y2DQ4PlwEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_z0nx8PlwEeOXpe7a-hAPbg" name="fdd_roadmap" guid="_z0nx8PlwEeOXpe7a-hAPbg" presentationName="FDD Roadmap" briefDescription="This roadmap presents an overview of FDD its purpose, and its lifecycle.">
             <methodElementProperty xmi:id="_0blEQPlwEeOXpe7a-hAPbg" name="me_edited" value="true"/>
+            <presentation xmi:id="-b6qm3vjWM31rYvSdCS0O4w" href="uma://-b6qm3vjWM31rYvSdCS0O4w#-b6qm3vjWM31rYvSdCS0O4w"/>
           </contentElements>
         </childPackages>
       </childPackages>
