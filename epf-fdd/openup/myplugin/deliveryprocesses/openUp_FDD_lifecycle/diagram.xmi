@@ -762,7 +762,7 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cePW0vlvEeO6rp_93XQlYA" key="uri" value="uma://_66WTwPlKEeO6rp_93XQlYA#_75I3QflKEeO6rp_93XQlYA"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cePW0_lvEeO6rp_93XQlYA" key="type" value="Phase"/>
     </eAnnotations>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_cePW1PlvEeO6rp_93XQlYA" name="Develop Overall Modell Iteration" outgoing="_tMyMMPl5EeO6rp_93XQlYA">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_cePW1PlvEeO6rp_93XQlYA" name="Develop Overall Model Iteration" outgoing="_tMyMMPl5EeO6rp_93XQlYA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cePW1flvEeO6rp_93XQlYA" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cePW1vlvEeO6rp_93XQlYA" key="uri" value="uma://_66WTwPlKEeO6rp_93XQlYA#_8akpAflNEeO6rp_93XQlYA"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cePW1_lvEeO6rp_93XQlYA" key="type" value="Iteration"/>
@@ -775,6 +775,17 @@
       </eAnnotations>
     </node>
     <edge xmi:type="uml:ControlFlow" xmi:id="_tMyMMPl5EeO6rp_93XQlYA" source="_cePW1PlvEeO6rp_93XQlYA" target="_cePW2PlvEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AN_ogPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BQKQIPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CCdPwPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ChGTkPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DXlPoPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EJ3oMPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_E1G9kPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FXNlEPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GG1EIPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_G-cooPoYEeO6rp_93XQlYA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PdeqcPoYEeO6rp_93XQlYA"/>
   </uml:Activity>
   <notation:Diagram xmi:id="_ceOvwPlvEeO6rp_93XQlYA" type="AD" element="_cePW0PlvEeO6rp_93XQlYA" name="Develop an Overall Model" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_ceOvwflvEeO6rp_93XQlYA" type="1011" element="_cePW1PlvEeO6rp_93XQlYA">
@@ -794,7 +805,9 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ceOvzvlvEeO6rp_93XQlYA" x="372" y="48"/>
     </children>
     <styles xmi:type="notation:PageStyle" xmi:id="_ceOvz_lvEeO6rp_93XQlYA"/>
-    <styles xmi:type="notation:GuideStyle" xmi:id="_ceOv0PlvEeO6rp_93XQlYA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_ceOv0PlvEeO6rp_93XQlYA">
+      <horizontalGuides xmi:type="notation:Guide" xmi:id="_LB0z8PoXEeO6rp_93XQlYA" position="239"/>
+    </styles>
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_ceOv0flvEeO6rp_93XQlYA"/>
     <edges xmi:type="notation:Edge" xmi:id="_tM4S0Pl5EeO6rp_93XQlYA" type="3001" element="_tMyMMPl5EeO6rp_93XQlYA" source="_ceOvwflvEeO6rp_93XQlYA" target="_ceOvyPlvEeO6rp_93XQlYA">
       <children xmi:type="notation:Node" xmi:id="_tM454Pl5EeO6rp_93XQlYA" type="4012">

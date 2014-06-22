@@ -53,8 +53,26 @@
 &lt;h4>&#xD;
     The OpenUP FDD software development&amp;nbsp;lifecycle&#xD;
 &lt;/h4>&#xD;
-&lt;p>&#xD;
-    OpenUP FDD is an iterative process consisting of five phases:&#xD;
+&lt;h4&#xD;
+style=&quot;FONT-SIZE: 13px; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: normal; LINE-HEIGHT: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    OpenUP enhanced with FDD development&amp;nbsp;lifecycle&#xD;
+&lt;/h4>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT: 13px arial, helvetica, sans-serif, kanji2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    OpenUP enhanced with FDD&amp;nbsp;is an iterative process&amp;nbsp;distributed throughout&amp;nbsp;five phases: Develop an Overall&#xD;
+    Model, Build a Features List, Plan by Feature, Design by Feature&amp;nbsp; and Build by Feature. Each phase consists of one&#xD;
+    or more iterations where stable, working versions of the software are developed and released, with the completion of&#xD;
+    each iteration representing a minor&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot;&#xD;
+    guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>milestone&lt;/a>&amp;nbsp;for the project and contributing to the successful achievement of the&#xD;
+    phase's major milestone, where phase objectives are met.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT: 13px arial, helvetica, sans-serif, kanji2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;span&#xD;
+    style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    OpenUP FDD is an iterative process consisting of five phases:&lt;/span>&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
@@ -77,5 +95,9 @@
     The following diagram depicts&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../../myplugin/deliveryprocesses/openUp_FDD_lifecycle_DE1F5C31.html&quot; guid=&quot;_66WTwflKEeO6rp_93XQlYA&quot;>OpenUp&#xD;
     FDD Lifecycle&lt;/a>&#xD;
-&lt;/p></mainDescription>
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img style=&quot;HEIGHT: 189px; WIDTH: 1221px&quot; alt=&quot;&quot; src=&quot;resources/diagram.png&quot; width=&quot;600&quot; height=&quot;189&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;br /></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>
