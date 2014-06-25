@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-b6qm3vjWM31rYvSdCS0O4w" name="fdd_roadmap,_z0nx8PlwEeOXpe7a-hAPbg" guid="-b6qm3vjWM31rYvSdCS0O4w" changeDate="2014-06-22T15:39:15.552+0300">
   <mainDescription>&lt;h3>&#xD;
-    Overview of OpenUP FDD&#xD;
+    Overview of FDD&#xD;
 &lt;/h3>&#xD;
 &lt;br />&#xD;
 &lt;p>&#xD;
-    OpenUP FDD &amp;nbsp;is an extension of OpenUp software development process.&amp;nbsp;FDD is an agile, highly adaptive software&#xD;
+    FDD &amp;nbsp;is an extension of OpenUp software development process.&amp;nbsp;FDD is an agile, highly adaptive software&#xD;
     development process that is :&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
@@ -51,7 +51,7 @@
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;h4>&#xD;
-    The OpenUP FDD software development&amp;nbsp;lifecycle&#xD;
+    The FDD software development&amp;nbsp;lifecycle&#xD;
 &lt;/h4>&#xD;
 &lt;h4&#xD;
 style=&quot;FONT-SIZE: 13px; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: normal; LINE-HEIGHT: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;

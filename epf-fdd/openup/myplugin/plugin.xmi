@@ -168,6 +168,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9gGyEPlrEeOXpe7a-hAPbg" name="test" guid="_9gGyEPlrEeOXpe7a-hAPbg" presentationName="Test" performedBy="__Du3EPliEeOXpe7a-hAPbg _6IivcPliEeOXpe7a-hAPbg">
             <methodElementProperty xmi:id="_-fnuUPlrEeOXpe7a-hAPbg" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_nhG5MPyiEeOe2Me67uHsUA" name="new_role" guid="_nhG5MPyiEeOe2Me67uHsUA" presentationName="New Role"/>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RHYCsPljEeOXpe7a-hAPbg" name="integration_deploy_role_set" guid="_RHYCsPljEeOXpe7a-hAPbg">
           <methodElementProperty xmi:id="_RIpOAPljEeOXpe7a-hAPbg" name="pkg_loadCheck" value="true"/>
